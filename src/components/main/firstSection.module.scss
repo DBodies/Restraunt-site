@@ -1,0 +1,42 @@
+@import '/src/commonStyle.scss/styles.scss';
+
+.first_section {
+padding: 280px 0 32px;
+    background-color: rgba(35, 48, 0, 1);
+}
+
+.wrapperForText {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+        font-size: 96px;
+        max-width: 700px;
+        margin-bottom: 50px;
+}
+.text {
+    font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        max-width: 500px;
+        color: white;
+    margin-bottom: 50px;
+}
+.verticalText {
+    font-weight: 700;
+        font-size: 48px;
+        line-height: 133%;
+        color: #ffffff;
+        writing-mode: vertical-lr;
+}
+.verticalText::after {
+    padding: 10px 0 0 0;
+    content: " - ";
+    position: absolute;
+
+}

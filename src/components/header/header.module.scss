@@ -1,0 +1,14 @@
+@import '/src/commonStyle.scss/styles.scss';
+@import './header_list.module.scss';
+@import './burger-menu.module.scss';
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+.container_wrapper {
+    display: flex;
+    align-items: center;
+}
