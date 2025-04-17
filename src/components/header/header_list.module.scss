@@ -4,13 +4,13 @@
     gap: 36px;
     @include flex-center
 }
-.number {
+.number a {
     font-weight: 400;
         font-size: 26px;
         color: #ffffff;
         font-family: Lato serif;
 }
-.reservation_link {
+.reservation_link a {
             font-family: Lato serif;
 font-weight: 700;
     font-size: 36px;

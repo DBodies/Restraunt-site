@@ -1,7 +1,15 @@
 @import '/src/commonStyle.scss/styles.scss';
+@import './seasons&dish/firstDish.module.scss';
+@import './seasons&dish/seasoning.module.scss';
+
+.container {
+        padding: 30px  138px;
+        margin: 0 auto;
+        display: flex;
+}
 
 .first_section {
-padding: 280px 0 32px;
+padding: 180px 0 32px;
     background-color: rgba(35, 48, 0, 1);
 }
 
@@ -11,12 +19,19 @@ padding: 280px 0 32px;
     text-align: left;
 }
 
+.wrapperForDscr {
+    margin-top: 550px;
+}
+
 .title {
     color: rgb(255, 255, 255);
+    position: absolute;
     font-weight: 700;
-        font-size: 96px;
-        max-width: 700px;
+    max-width: 1100px;
+font-size: 148px;
         margin-bottom: 50px;
+        z-index: 2;
+        margin: 0;
 }
 .text {
     font-weight: 400;
@@ -28,6 +43,8 @@ padding: 280px 0 32px;
     margin-bottom: 50px;
 }
 .verticalText {
+    position: relative;
+    left: -50px;
     font-weight: 700;
         font-size: 48px;
         line-height: 133%;
