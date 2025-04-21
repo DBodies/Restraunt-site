@@ -11,7 +11,7 @@ export default function First() {
             <div className={styles.container}>
                 <Title_text />
                 <Dish/>
-                <Seasoning/>
+                <Seasoning />
             </div>
         </section>
     )
