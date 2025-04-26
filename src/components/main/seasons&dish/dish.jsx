@@ -1,4 +1,4 @@
-import styles from '../../main/firstSection.module.scss';
+import styles from '../firstSectionComponents/firstSection.module.scss';
 import firstDish from './imgSeasoning/firstDish.jpg'
 
 

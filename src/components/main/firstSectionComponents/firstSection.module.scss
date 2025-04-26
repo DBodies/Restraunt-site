@@ -1,6 +1,6 @@
-@import '/src/commonStyle.scss/styles.scss';
-@import './seasons&dish/firstDish.module.scss';
-@import './seasons&dish/seasoning.module.scss';
+@import '../../../commonStyle.scss/styles.scss';
+@import '../seasons&dish/firstDish.module.scss';
+@import '../../main/seasons&dish/seasoning.module.scss';
 
 .container {
         padding: 30px  138px;

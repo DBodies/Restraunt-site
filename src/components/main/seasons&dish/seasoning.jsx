@@ -1,4 +1,4 @@
-import styles from '../../main/firstSection.module.scss';
+import styles from '../firstSectionComponents/firstSection.module.scss';
 import firstSeasoning from './imgSeasoning/firstSeasoning.jpg'
 import secondSeasoning from './imgSeasoning/secondSeasoning.jpg'
 import thirdSeasoning from './imgSeasoning/thirdSeasoning.jpg'
